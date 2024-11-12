@@ -1,1 +1,66 @@
-/*  your css code here. If applicable */
+/* General body styling */
+body {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Left section styling */
+.left {
+  width: 450px;
+  margin-top: 70px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Right section styling */
+.right form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  gap: 10px;
+}
+
+.right form input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.right form button {
+  background-color: #1877f2;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.right form a {
+  color: #1877f2;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Signup button styling */
+.signup {
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
